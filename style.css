@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(./assets/ABCFavoritMonoEdu-Regular.woff2);
+  font-family: 'Favorit Mono';
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+.digital-clock-container {
+  width: 50%;
+  height: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 16px azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+  color: #2f4f4f;
+  background-color: rgba(transparent, 0.5);
+  backdrop-filter: blur(10px);
+}
+.counter-container {
+  width: 25%;
+  text-align: center;
+  font-family: 'Favorit Mono';
+}
